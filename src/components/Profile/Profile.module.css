@@ -5,6 +5,7 @@ height: 100%;
 display: block;
 text-align: center;
 padding: 15px;
+margin:20px;
 }
 .description{
 display: flex;

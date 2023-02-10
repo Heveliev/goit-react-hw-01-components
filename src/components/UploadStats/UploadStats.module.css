@@ -1,0 +1,19 @@
+.statistics{
+background-color: #FFFFFF;
+display: flex;
+text-align: center;
+margin: 20px;
+width: 300px;
+height: 100%;
+flex-direction: column;
+}
+.title{
+color:#404040;
+display: inline-block;
+}
+.stat_list{
+display: flex;
+width: 100%;
+justify-content: center;
+column-gap: 1px;
+}

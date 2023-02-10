@@ -1,7 +1,7 @@
 import css from './UploadStats.module.css';
 import { Statistics } from '../Statistics/Statistics';
 import data from '../data/data.json';
-import PropTypes from 'prop-types';
+
 
 export const UploadStats = () =>{
     return (<section className={css.statistics}>

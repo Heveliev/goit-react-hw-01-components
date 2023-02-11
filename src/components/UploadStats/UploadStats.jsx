@@ -3,9 +3,9 @@ import { Statistics } from '../Statistics/Statistics';
 import data from '../data/data.json';
 
 
-export const UploadStats = () =>{
+export const UploadStats = ({title}) =>{
     return (<section className={css.statistics}>
-    <h2 className={css.title}>Upload stats</h2>
+    <h2 className={css.title}>{title}</h2>
     <ul className={css.stat_list}>
         {data.map(event=>(
         <Statistics 

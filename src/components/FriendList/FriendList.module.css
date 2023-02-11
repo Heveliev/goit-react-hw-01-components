@@ -1,0 +1,9 @@
+.friend_list{
+    background-color: #FFFFFF;
+    margin: 20px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 1px;
+}

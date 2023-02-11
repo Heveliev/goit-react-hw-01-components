@@ -1,0 +1,13 @@
+.transaction_history{
+    width: 600px;
+    margin: 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+th{
+    background-color: skyblue;
+}
+
+td{
+    border: 1px solid #000000;
+}

@@ -1,0 +1,29 @@
+.item{
+display: flex;
+align-items: center;
+column-gap: 10px;
+border: 1px solid #000000;
+
+padding: 10px;
+}
+
+.status_online{
+background-color: greenyellow;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.status_offline{
+    background: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.avatar{
+border-radius: 10px;
+border: 1px solid #000000;
+
+}
+.name{
+font-weight: 500;
+}

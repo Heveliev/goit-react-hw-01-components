@@ -20,7 +20,7 @@ export const App = () => {
       followers={stats.followers}
       views={stats.views}
       likes={stats.likes}/>
-    <UploadStats title="Upload stats"/>
+    <UploadStats  />
     <FriendList friends={friends}/>
     <TransactionHistory transactions={transactions}/>
     </div>
